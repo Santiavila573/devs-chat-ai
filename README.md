@@ -1,5 +1,16 @@
 # Devs-Chat-AI
-Chatbot Inteligente para Desarrolladores con React e IA
+<br>
+# Chatbot Inteligente para Desarrolladores con React e IA
+<br>
+<img width="1591" height="805" alt="2025-10-02 16 48 26" src="https://github.com/user-attachments/assets/935b50bc-3d19-475e-9df7-35efec97ea27" />
+<br>
+<img width="1572" height="701" alt="2025-10-02 16 48 26 (2)" src="https://github.com/user-attachments/assets/da0df1e7-e887-4e54-b6a8-49b2b6413763" />
+<br>
+<img width="1588" height="791" alt="2025-10-02 16 48 25 (6)" src="https://github.com/user-attachments/assets/7f333038-0c99-4b54-9a1f-00f6fb3246f5" />
+<br>
+<img width="826" height="763" alt="2025-10-02 16 48 27" src="https://github.com/user-attachments/assets/8fdb2b13-107e-42c6-95fe-59062d1bdce0" />
+<br>
+<br>
 
 📌 Descripción
 DevBot-AI-Assistant es un chatbot avanzado desarrollado con React y diseñado para ayudar a desarrolladores a resolver errores de código, buscar soluciones en repositorios, y ofrecer recomendaciones para añadir funcionalidades. Utiliza una API key de OpenAI para analizar problemas, generar soluciones, y proporcionar explicaciones detalladas.
@@ -24,7 +35,7 @@ Cuenta en OpenAI para obtener una API key
 Cuenta en GitHub (opcional, para búsqueda en repositorios)
 
 2. Clonar el repositorio
- Copygit clone https://github.com/tu-usuario/devbot-ai-assistant.git
+ Copygit clone https://github.com/Santiavila573/devs-chat-ai.git
 cd devbot-ai-assistant/client
 3. Instalar dependencias
  Copynpm install
