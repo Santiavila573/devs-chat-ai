@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Devs-Assistent: Asistente de Documentación Técnica con IA</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+      }
+    </script>
+    <style>
+      @keyframes aurora {
+        from {
+          background-position: 50% 50%, 50% 50%;
+        }
+        to {
+          background-position: 350% 50%, 350% 50%;
+        }
+      }
+      .aurora-bg {
+        position: relative;
+        background-color: #f9fafb; /* Light mode fallback */
+      }
+      .dark .aurora-bg {
+        background-color: #030712; /* Dark mode fallback */
+      }
+      .aurora-bg::before {
+        content: '';
+        position: fixed;
+        inset: 0;
+        z-index: 0;
+        pointer-events: none;
+        background-image:
+          radial-gradient(at 20% 70%, hsla(265, 80%, 60%, 0.3) 0px, transparent 50%),
+          radial-gradient(at 80% 10%, hsla(290, 85%, 70%, 0.25) 0px, transparent 50%),
+          radial-gradient(at 60% 90%, hsla(245, 90%, 65%, 0.2) 0px, transparent 50%);
+        animation: aurora 20s infinite alternate ease-in-out;
+        mix-blend-mode: multiply;
+      }
+      .dark .aurora-bg::before {
+        mix-blend-mode: screen;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-syntax-highlighter/": "https://aistudiocdn.com/react-syntax-highlighter@^15.6.6/",
+    "react-syntax-highlighter": "https://aistudiocdn.com/react-syntax-highlighter@^15.6.6",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.21.0"
+  }
+}
+</script>
+</head>
+  <body class="aurora-bg">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+{
+  "name": "Devs-Assistent: AI Technical Documentation Assistant",
+  "description": "An advanced local RAG system for developers to search technical documentation. It provides precise answers, code snippets with syntax highlighting, and source citations to enhance the development workflow.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
